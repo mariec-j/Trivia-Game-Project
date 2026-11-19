@@ -1,4 +1,4 @@
-package Class_Src;
+package Mini_Project_Ver.Class_Src;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

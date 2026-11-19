@@ -1,4 +1,6 @@
-import Class_Src.QuestionsLoader;
+package Mini_Project_Ver;
+
+import Mini_Project_Ver.Class_Src.QuestionsLoader;
 
 public class QuestionsLoaderTest {
     public static void main(String[] args) {

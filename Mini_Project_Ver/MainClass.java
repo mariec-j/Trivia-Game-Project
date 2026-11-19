@@ -1,4 +1,6 @@
-import Class_Src.CardLayoutFrame;
+package Mini_Project_Ver;
+
+import Mini_Project_Ver.Class_Src.CardLayoutFrame;
 import javax.swing.JFrame;
 
 public class MainClass {

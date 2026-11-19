@@ -1,4 +1,4 @@
-package BigUpdate;
+package Mini_Project_Ver.BigUpdate;
 
 // File: User.java
 import java.io.Serializable;

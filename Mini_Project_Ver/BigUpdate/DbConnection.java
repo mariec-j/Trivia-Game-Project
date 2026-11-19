@@ -1,4 +1,4 @@
-package BigUpdate;
+package Mini_Project_Ver.BigUpdate;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

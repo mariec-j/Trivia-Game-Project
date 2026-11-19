@@ -1,4 +1,4 @@
-package BigUpdate;
+package Mini_Project_Ver.BigUpdate;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

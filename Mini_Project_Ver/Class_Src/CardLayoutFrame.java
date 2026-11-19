@@ -1,4 +1,4 @@
-package Class_Src;
+package Mini_Project_Ver.Class_Src;
 
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
@@ -32,10 +32,10 @@ public class CardLayoutFrame extends JFrame {
     private JButton playECEQ;
     private JButton playDeadlockQ;
     private JButton[] optionButtons;
-    private Icon[] buttonIcons = {new ImageIcon("src\\Images\\Circle.png"),
-            new ImageIcon("src\\Images\\Square.png"),
-            new ImageIcon("src\\Images\\Diamond.png"),
-            new ImageIcon("src\\Images\\Triangle.png")};
+    private Icon[] buttonIcons = {new ImageIcon("src\\Mini_Project_Ver\\Images\\Circle.png"),
+            new ImageIcon("src\\Mini_Project_Ver\\Images\\Square.png"),
+            new ImageIcon("src\\Mini_Project_Ver\\Images\\Diamond.png"),
+            new ImageIcon("src\\Mini_Project_Ver\\Images\\Triangle.png")};
     private Random randomNum = new Random();
     private JButton resetToMenuButton;
 //    Panels for Layout - - - - - - - - -
@@ -55,10 +55,10 @@ public class CardLayoutFrame extends JFrame {
     private int timerSeconds;
     private JLabel timerLabel;
 //    Questions - - - - - - - - - - - - -
-    private List<String> pathsQuestion = List.of("src\\Question_Text_Files\\ECEQuestions.txt",
-        "src\\Question_Text_Files\\DeadlockQuestions.txt");
-    private List<String> pathsRubric = List.of("src\\Question_Text_Files\\ECERubric.txt",
-            "src\\Question_Text_Files\\DeadlockRubric.txt");
+    private List<String> pathsQuestion = List.of("src\\Mini_Project_Ver\\Question_Text_Files\\ECEQuestions.txt",
+        "src\\Mini_Project_Ver\\Question_Text_Files\\DeadlockQuestions.txt");
+    private List<String> pathsRubric = List.of("src\\Mini_Project_Ver\\Question_Text_Files\\ECERubric.txt",
+            "src\\Mini_Project_Ver\\Question_Text_Files\\DeadlockRubric.txt");
     private int questionSet;
     private List<ArrayList<String>> questionsList;
     private List<Integer> correctAnswers;
